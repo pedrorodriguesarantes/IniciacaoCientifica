@@ -15,3 +15,10 @@ repositório, qual é a dinâmica aplicada pela comunidade dentro do projeto.
         + Há usuários que não interagem mas que desenvolvem muito? (Lobos solitários)
         + Problemas sociais se refletem dentro do repositório?
         + Qual o movimento de migração de desenvolvedores, caso abandonem o projeto?
+    
+O primeiro passo tomado foi a mineração das issues entorno de cada repositório. Trabalhando
+em conjunto com o google colab, a mineração se provou rápida e eficiente. O próximo passo
+será coletar as respostas de cada problema.
+
+Também defini a sintaxe para realizar commits e cadastrar issues dentro do projeto, sendo ela:
+    [LABEL PROBLEMA] - TITULO.
