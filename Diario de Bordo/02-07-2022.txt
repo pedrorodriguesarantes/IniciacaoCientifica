@@ -1,0 +1,17 @@
+[02/07/2022] Fase 3 - Redes Sociais (em andamento)
+O objetivo dessa fase da pesquisa é analisar o GitHub como uma rede social, ou seja, 
+um local onde há interação social entre seus membros. Para isso, coletarei mensagens 
+dentro de issues para verificar quais desenvolvedores possuem uma maior interação com
+outros usuários. Além disso, conseguirei ver, utilizando uma vista global do
+repositório, qual é a dinâmica aplicada pela comunidade dentro do projeto.
+
+    Alguns pontos que gostaria de verificar:
+        + Há usuários que não conseguem se conectar dentro da comunidade?
+            + Quais motivos? (Culpa do usuário ou da comunidade? )
+
+        + A rede é extremamente contectada ou fracamente conectada?
+        + A rede é consistente ao longo do tempo, ou muda de forma e tamanho?
+        + Quais são os usuários mais ativos? Possuem um perfil parecido?
+        + Há usuários que não interagem mas que desenvolvem muito? (Lobos solitários)
+        + Problemas sociais se refletem dentro do repositório?
+        + Qual o movimento de migração de desenvolvedores, caso abandonem o projeto?

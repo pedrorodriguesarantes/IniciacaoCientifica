@@ -1,0 +1,4 @@
+github
+pandas
+xlsxwriter
+warnings
