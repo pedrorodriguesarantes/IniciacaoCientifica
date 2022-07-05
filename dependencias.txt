@@ -1,4 +1,4 @@
-github
+pygithub
 pandas
 xlsxwriter
 warnings

@@ -6,7 +6,7 @@ def unir_arquivo(caminhos):
 
     for caminho in caminhos:
         warnings.filterwarnings('ignore')
-        df = pd.read_excel(caminho)
+        df = pd.read_excel(caminho, index_col = 0)
         
         final = final.append(df)
     
