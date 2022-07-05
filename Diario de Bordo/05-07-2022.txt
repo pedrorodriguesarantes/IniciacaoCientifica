@@ -1,0 +1,43 @@
+[05/07/2022] Fase 3 - Redes Sociais (em andamento)
+Após perder todo o trabalho realizado até o momento, recuperei todos os dados na mão bruta.
+Com um limite de apenas 5 mil requisições hora, coletar 80 mil comentários do repositório
+Angular parecia ser uma missão impossível (tomaria a minha máquina em 20 horas :( ). Entretanto,
+para todo problema existe uma gambiarra. Segue a minha solução
+    + Como aprendido na disciplina de fundamento de redes, o servidor contém apenas o meu endereço
+    ip público, então decidi criar algumas contas google para aumentar o número de usuários e, conse-
+    quentemente, o número de requisições hora.
+    + Entretanto, minha conexão local não suportaria tal demanda. Também fiquei com medo do GitHub notar
+    que 5 usuários do mesmo local estão minerando o mesmo repositório, para o mesmo propósito. Por isso
+    distribui 3 máquinas dentro do Google Colaboratory e 1 máquina para o Repl.it. Sendo assim, o Google 
+    não reclama, o Repl.it não reclama, o GitHub não reclama e eu fico muuuuuuito feliz.
+
+Os dados que coletei estão estruturados da seguinte forma:
+
+Para as issues, tenho a seguinte modelagem
+    Id da Issue - Número inteiro que age como chave primária do dado
+    Título da Issue - Título referente a issue
+    Data Criação - Data em que a issue foi cadastrada
+    Data Finalização - Data em que a issue foi concluída (caso não, terá um valor "Não finalizada")
+    Id do Autor - Número inteiro que referencia o usuário autor da issue
+    Pull Request - Valor booleano que identifica se o objeto é uma Pull Request (também tratada como issue pelo git)
+    Número da Issue - Número inteiro da issue em relação ao repositório
+
+
+Para os comentários de uma issue, tenho a seguinte modelagem
+    Id da Issue - Número inteiro que referencia qual issue foi comentada 
+    Data do Comentário - String que armazena a data no formato dia/mes/ano
+    Id do usuário que comentou - Numero inteiro que referencia o usuario
+
+
+Alguns problemas que enfrentei e a seguinte solução
+    + Excel ao invés de CSV para issues - O documento CSV utiliza um caracter para separação dos dados, e 
+    como o texto poderia conter qualquer caracter, a separação poderia ser quebrada. Então, tive que utilizar
+    o excel com uma engine específica para tratar o problema.
+
+    + Número da Issue vs Id da Issue - O id da issue é referenciado ao Github como um todo (identificador unico),
+    mas não serve para buscar a issue, portanto tenho que armazenar o número da issue em relação ao repositório (começa
+    sempre em 1)
+
+    + Repl.it não lida bem com Excel - O site repl.it não lidou bem com arquivos Excel, corrompendo-os caso crie 
+    ou abra na inteface do usuário algum deles. Portanto, utilizei as máquinas do colab para mineração das issues,
+    enquanto o Repl.it lidava com a mineração dos comentários.
