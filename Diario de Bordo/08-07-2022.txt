@@ -1,0 +1,14 @@
+[07/07/2022] Fase 3 - Redes Sociais (em andamento)
+Após coletar todas as issues e comentários do repositório Angular.js defini a interação social da comunidade da 
+seguinte forma:
+    + Cada comentário realizado em um evento, seja ele uma pull request ou uma issue, terá se relacionado com 
+    todos os comentários anteriores a ele
+    + Cada interação ocorrida, adiciona 1 ponto de interação entre a relação dos dois usuários.
+    + Não se inicia relações com 0 de interação (pode nunca existir entre A e B)
+
+Definido o cálculo da métrica de relacionamento entre dois usuários, comecei a investigar ferramentas e bibliotecas
+que conseguiriam gerar gráficos dos grafos construídos. A biblioteca networkx se mostrou a mais promissora e com 
+ótimas ferramentas para personalização e modificação das plotagens (menos engessada).
+    + Entretanto, para grafos muito grandes, a ferramenta não consegue gerar coisas bonitas
+    + Relações isoladas são expulsas para o canto da imagem, o que dificulta a visualização do centro.
+    + Colocar imagens nos grafos traz um resultado visual legal e que me surpreendeu (mais natural de entender)
