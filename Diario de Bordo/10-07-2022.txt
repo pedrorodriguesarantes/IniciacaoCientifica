@@ -1,0 +1,18 @@
+[09/07/2022] Fase 3 - Redes Sociais (em andamento)
+
+Em primeiro lugar organizei novamente os arquivos dentro do repositório, agora fiquei satisfeito.
+Em segundo lugar continuei com a análise dos dados coletados. Além dos diagramas de ven, agora 
+estou com as métricas sobre a rede calculadas e documentadas (grupo 1 que explicarei adiante).
+
+Pretendo diferenciar métricas de rede e métricas de relacionamento da seguinte forma:
+    Aquelas que referenciam mais o tamanho da rede e o relacionamento predominante nela, estão
+    agrupadas em uma questão de pesquisa.
+    
+    Já as métricas que referenciam os caminhos da rede, como caminho mínimo, coeficiente de 
+    correlação e diâmetro do grafo estão agrupadas em uma segunda questão de pesquisa.
+
+    Analisando com calma, o grupo 1 me dá uma sensação de visualização macro, enquanto o 
+    grupo 2 me dá uma sensação de visualização micro das relações.
+
+
+O grupo 2 será o próximo conjunto de métricas a serem calculadas.

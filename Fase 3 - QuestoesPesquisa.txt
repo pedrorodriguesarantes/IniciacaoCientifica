@@ -2,8 +2,10 @@ Há usuários que não conseguem se conectar dentro da comunidade ?
     Quais motivos? ( Culpa do usuário ou da comunidade? )
         > Qual o tempo médio que a comunidade demora para responder uma
         issue? E um pull request?
+        
+        > Qual o tempo médio que uma issue permanece aberta?
 
-        > Usuários que possuem uma menor taxa de respostas possuem
+        > Usuários que possuem um maior tempo de respostas possuem
         comentários mais negativos? Grande porcentagem de ignorados 
         está no primeiro quartil de mais negativos?
 
