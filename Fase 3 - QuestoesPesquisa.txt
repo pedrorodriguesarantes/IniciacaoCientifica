@@ -1,0 +1,43 @@
+Há usuários que não conseguem se conectar dentro da comunidade ?
+    Quais motivos? ( Culpa do usuário ou da comunidade? )
+        > Qual o tempo médio que a comunidade demora para responder uma
+        issue? E um pull request?
+
+        > Usuários que possuem uma menor taxa de respostas possuem
+        comentários mais negativos? Grande porcentagem de ignorados 
+        está no primeiro quartil de mais negativos?
+
+
+A rede é extremamente contectada ou fracamente conectada?
+    
+    Algumas métricas que acredito que possam responder a essa questão são:
+    > Grau Médio do Grafo - Média aritmética dos graus de cada vértice
+    > Coeficiente de Aglomeração - Probabilidade de que vizinhos de um 
+    vértice sejam vizinhos entre si. 
+    > Diametro do Grafo - Distância típica entre dois vértices de um grafo.
+
+
+A rede é consistente ao longo do tempo, ou muda de forma e tamanho ?
+
+    Algumas métricas que acredito que possam responder a essa questão são:
+    > Ordem do Grafo - Quantidade de vértices em cada período
+    > Tamanho do Grafo - Quantidade de arestas em cada período
+    > Grau Médio do Grafo - Média aritmética do grau dos vértices
+    > Tamanho Médio do Grafo - Média aritmética do peso das arestas
+
+
+Quais são os usuários mais ativos? Possuem um perfil parecido?
+    
+    Encontrar os N usuários mais ativos no repositório.
+    > Atividade de Desenvolvimento e Atividade de Interações.
+
+    Verificar se coincidem (mais ativos em interações e desenvolvimento)/
+    Caso contrário encontramos um lobo solitário ou uma velha falante.
+
+
+Há usuários que não interagem mas que desenvolvem muito? (Lobos solitários)
+    Diagrama de Pareto - Desenvolvedores que menos interagem são os
+    que entregam mais resultados?
+
+Problemas sociais se refletem dentro do repositório?
+Qual o movimento de migração de desenvolvedores, caso abandonem o projeto?

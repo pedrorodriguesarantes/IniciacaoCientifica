@@ -1,0 +1,16 @@
+[09/07/2022] Fase 3 - Redes Sociais (em andamento)
+Decidi fazer uma busca exploratória em ferramentas para analisar o meu conjunto de dados. A primeira
+escolhida foi utilizar Diagramas de Venn para entender como os relacionamentos são distribuídos, ou 
+seja, quais são exclusivamente gerados a partir de issues, pull request ou ambos. A proporção me 
+surpreendeu. 
+
+Gerei também o grafo de relacionamento dos períodos com a menor quantidade de usuários. A ferramenta
+se comporta bem para grafos pequenos, mas não adianta insistir em grafos grandes, NÃO VAI FICAR BONITO.
+
+Quero gerar métricas dos grafos, além das que conheço como média dos pesos das arestas e número médio de 
+incidências. Por isso vou buscar na literatura quais são as métricas disponíveis para utilização. Descobri
+a ferramenta Gephi que ao passar uma lista de arestas, consigo calcular automaticamente diversas métricas 
+que eu ainda não entendi o que significam
+
+Uma outra ideia seria identificar a atividade dos 10 desenvolvedores mais ativos da comunidade ao decorrer
+da história do projeto.
