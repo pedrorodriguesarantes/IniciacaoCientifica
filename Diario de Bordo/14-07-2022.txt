@@ -1,0 +1,47 @@
+[14/07/2022] Fase 3 - Redes Sociais (em andamento)
+
+Muitas coisas aconteceram durante os dias 10 até o dia de hoje. Portanto, segue a explicação dos
+resultados obtidos até o momento.
+
+Para a questão 2 e 3 todas as métricas foram coletadas. Cada uma delas explicada a seguir, utilizando como contexto
+conexões entre cidades:
+    1. Ordem do Grafo - Quantidade de vértices em cada período
+        Quantidade de cidades dentro do estado de São Paulo.
+
+    2. Tamanho do Grafo - Quantidade de arestas em cada período.
+        Quantidade de conexões (Ferroviária e Rodoviária) dentro do estado de São Paulo.
+
+    3. Grau Médio do Grafo - Média aritmética do grau dos vértices
+        Média da quantidade de conexões em cada cidade do estado.
+
+    4. Tamanho Médio do Grafo - Média aritmética do peso das arestas.
+        Média da distância das conexões dentro do estado de São Paulo
+
+    5. Diagrama de Venn - Qual o tipo de relação desenvolvida pelos participantes (apenas issues, apenas pull-requests, ambas)
+        Qual o meio de conexão predominante em uma cidade? Somente ferrovias, somente rodovias ou ambas?
+    
+    6. Coeficiente de Aglomeração - Probabilidade de que vizinhos de um vértice sejam vizinhos entre si. 
+        A probabilidade de que as cidades conectadas a uma cidade x, também sejam conectadas entre si.
+
+    7. Distância entre dois vértices - Menor caminho entre um vértice A e B.
+        A menor distância que preciso percorrer para sair de uma cidade X e chegar a uma cidade Y.
+
+    8. Caminho Mínimo Médio - Razão entre a distância do vértice com todos os outros vértices.
+        A distância média que preciso percorrer para sair de uma cidade x e chegar a todas as outras cidades do estado
+
+    9. Diametro do Grafo - Média aritmética dos caminhos mínimos médios de cada um dos vértices.
+        A média das distâncias médias de cada cidade.
+
+
+Para a questão 4 - Quais são os usuários mais ativos? Possuem um perfil parecido? - voltei novamente a etapa de mineração de
+repositórios e coletei todos os commits realizados no projeto. Após isso, verifiquei a quantidade de comentários, issues 
+cadastradas e commits realizados por cada membro do repositório. 
+
+Após essa verificação, normalizei os dados entre os valores 1 e 0, sendo 1 o maior valor do conjunto e 0 o menor valor do conjunto.
+Em seguida coletei os quartis das atividades e analisei em qual quartil cada usuário estava para cada atividade (commits, comentarios
+e issues).
+
+Para verificar quais usuários eram os mais ativos no repositório, calculei a distância euclidiana do usuário com dimensoes (x = commits, 
+y = comentarios e z = issues) para encontrar quais eram os mais distantes do ponto (0, 0, 0).
+
+Pronto, finalizei ordenando a tabela pela distancia de cada usuario e todas as informações estavam disponíveis para análise :)

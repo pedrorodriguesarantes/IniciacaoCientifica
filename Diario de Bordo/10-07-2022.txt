@@ -14,5 +14,4 @@ Pretendo diferenciar métricas de rede e métricas de relacionamento da seguinte
     Analisando com calma, o grupo 1 me dá uma sensação de visualização macro, enquanto o 
     grupo 2 me dá uma sensação de visualização micro das relações.
 
-
 O grupo 2 será o próximo conjunto de métricas a serem calculadas.

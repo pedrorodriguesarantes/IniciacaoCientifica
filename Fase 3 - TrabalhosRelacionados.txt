@@ -1,0 +1,6 @@
+1. Introdução às Redes Complexas - Aline D. Bessa
+2. Network Structure of Social Coding in GitHub - Ferdian Thung
+3. Estatísticas de Redes Sociais - Antonio Galves
+4. Exploring the Patterns of Social Behavior in Github - Yue Yu
+5. Social Network of Software Development at GitHub - William Leibzon
+6. Understanding the User Interactions on GitHub: A Social Network Perspective - Erzheng Fu
